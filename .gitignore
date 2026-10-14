@@ -4,3 +4,15 @@ __pycache__/
 *.pyc
 *.backup
 sample_data/S
+@(
+    ".env"
+    ".venv/"
+    "__pycache__/"
+    "*.pyc"
+    "*.backup"
+    "*.log"
+    "sample_data/"
+    "PROBLEM_STATEMENT.docx"
+) | Set-Content .gitignore
+
+.gitignore
